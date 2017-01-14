@@ -1,0 +1,124 @@
+{
+  "basics": {
+    "name": "蔡富亘",
+    "label": "Programmer",
+    "picture": "",
+    "email": "zxp86021 (at) gmail.com",
+    "phone": "",
+    "website": "https://richegg.tw",
+    "summary": "Enlightened agent / Master's degree student in Information Management in NCNU",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": "Taiwan"
+    },
+    "profiles": [
+      {
+        "network": "Telegram",
+        "username": "@richegg",
+        "url": "https://t.me/richegg"
+      },
+      {
+        "network": "GitHub",
+        "username": "@zxp86021",
+        "url": "https://github.com/zxp86021"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Commerce Automation Lab @ NCNU",
+      "position": "Member",
+      "website": "https://github.com/ncnu-calab",
+      "startDate": "2013-09-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Online Tutoring Project @ NCNU",
+      "position": "employee",
+      "website": "https://www.facebook.com/NCNU.TheProjectofOnlineTutoring/",
+      "startDate": "2010-09-01",
+      "endDate": "",
+      "summary": "Teaching countryside Primary school and Junior high school students via Internet",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Makers' Open Lab for Innovation",
+      "position": "Key Holder",
+      "website": "https://moli.rocks",
+      "startDate": "2015-07-01",
+      "endDate": "",
+      "summary": "  The Makers' Open Lab for Innovation is a place opening to everyone. Anyone who loves to create things and share with others are welcome. Basically for free.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "National Chi Nan University",
+      "area": "Information of Management",
+      "studyType": "Master",
+      "startDate": "2013-09-01",
+      "endDate": "2017-06-30",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "National Chi Nan University",
+      "area": "Information of Management",
+      "studyType": "Bachelor",
+      "startDate": "2009-09-01",
+      "endDate": "2013-06-30",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front-end Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "level": "Advanced",
+      "keywords": [
+        "PHP"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Taiwanese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fair"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Racing",
+      "keywords": [
+        "Motorsports"
+      ]
+    }
+  ],
+  "references": []
+}
