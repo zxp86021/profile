@@ -106,6 +106,14 @@
       "keywords": [
         "PHP"
       ]
+    },
+    {
+      "name": "Back-end Development",
+      "level": "Beginner",
+      "keywords": [
+        "Go",
+        "Node.js"
+      ]
     }
   ],
   "languages": [
