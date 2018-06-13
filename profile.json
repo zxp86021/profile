@@ -6,12 +6,12 @@
     "email": "zxp86021 (at) gmail.com",
     "phone": "",
     "website": "https://richegg.tw",
-    "summary": "Enlightened agent / Master's degree student in Information Management in NCNU",
+    "summary": "Enlightened agent / Web Developer / Maker",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
-      "countryCode": "",
+      "city": "Nantou",
+      "countryCode": "886",
       "region": "Taiwan"
     },
     "profiles": [
@@ -31,9 +31,9 @@
         "url": "https://tw.linkedin.com/in/fu-hsuan-tsai-57717b136"
       },
       {
-        "network": "Spotify",
-        "username": "蔡富亘",
-        "url": "https://open.spotify.com/user/11168335280"
+        "network": "Twitter",
+        "username": "@zxp86021",
+        "url": "https://twitter.com/zxp86021"
       }
     ]
   },
@@ -41,7 +41,7 @@
     {
       "company": "University Entrance Committee For Overseas Chinese Students @ NCNU",
       "position": "Assistant",
-      "website": "https://www.overseas.ncnu.edu.tw",
+      "website": "http://www.overseas.ncnu.edu.tw",
       "startDate": "2018-06-01",
       "endDate": "",
       "summary": "",
@@ -58,7 +58,7 @@
     },
     {
       "company": "Online Tutoring Project @ NCNU",
-      "position": "employee",
+      "position": "Employee",
       "website": "https://www.facebook.com/NCNU.TheProjectofOnlineTutoring/",
       "startDate": "2010-09-01",
       "endDate": "2017-06-30",
@@ -73,7 +73,7 @@
       "website": "https://moli.rocks",
       "startDate": "2015-07-01",
       "endDate": "2018-02-14",
-      "summary": "  The Makers' Open Lab for Innovation is a place opening to everyone. Anyone who loves to create things and share with others are welcome. Basically for free.",
+      "summary": "The Makers' Open Lab for Innovation is a place opening to everyone. Anyone who loves to create things and share with others are welcome. Basically for free.",
       "highlights": []
     }
   ],
