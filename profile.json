@@ -39,11 +39,20 @@
   },
   "work": [
     {
+      "company": "University Entrance Committee For Overseas Chinese Students @ NCNU",
+      "position": "Assistant",
+      "website": "https://www.overseas.ncnu.edu.tw",
+      "startDate": "2018-06-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "company": "Commerce Automation Lab @ NCNU",
       "position": "Member",
       "website": "https://github.com/ncnu-calab",
       "startDate": "2013-09-01",
-      "endDate": "",
+      "endDate": "2018-02-14",
       "summary": "",
       "highlights": []
     },
@@ -52,7 +61,7 @@
       "position": "employee",
       "website": "https://www.facebook.com/NCNU.TheProjectofOnlineTutoring/",
       "startDate": "2010-09-01",
-      "endDate": "",
+      "endDate": "2017-06-30",
       "summary": "Teaching countryside Primary school and Junior high school students via Internet",
       "highlights": []
     }
@@ -63,7 +72,7 @@
       "position": "Key Holder",
       "website": "https://moli.rocks",
       "startDate": "2015-07-01",
-      "endDate": "",
+      "endDate": "2018-02-14",
       "summary": "  The Makers' Open Lab for Innovation is a place opening to everyone. Anyone who loves to create things and share with others are welcome. Basically for free.",
       "highlights": []
     }
@@ -135,6 +144,13 @@
       "name": "Racing",
       "keywords": [
         "Motorsports"
+      ]
+    },
+    {
+      "name": "Maker",
+      "keywords": [
+        "Raspberry Pi",
+        "Arduino"
       ]
     }
   ],
