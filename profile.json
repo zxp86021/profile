@@ -106,14 +106,14 @@
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript (jQuery)"
       ]
     },
     {
       "name": "Back-end Development",
       "level": "Advanced",
       "keywords": [
-        "PHP"
+        "PHP (Laravel, CodeIgniter)"
       ]
     },
     {
@@ -121,7 +121,7 @@
       "level": "Beginner",
       "keywords": [
         "Go",
-        "Node.js"
+        "Node.js (Express)"
       ]
     }
   ],
