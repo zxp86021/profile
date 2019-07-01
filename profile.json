@@ -39,12 +39,21 @@
   },
   "work": [
     {
-      "company": "University Entrance Committee For Overseas Chinese Students @ NCNU",
-      "position": "Assistant",
-      "website": "http://www.overseas.ncnu.edu.tw",
-      "startDate": "2018-06-01",
+      "company": "Megalive Co. Ltd",
+      "position": "PHP Web Developer",
+      "website": "http://www.megalive.com.tw/",
+      "startDate": "2019-02-18",
       "endDate": "",
       "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "University Entrance Committee For Overseas Chinese Students @ NCNU",
+      "position": "Web Developer",
+      "website": "https://en.overseas.ncnu.edu.tw",
+      "startDate": "2018-06-01",
+      "endDate": "2019-01-10",
+      "summary": "use Laravel to build modern, secure web backend application and APIs. use jQuery, Bootstrap as frontend",
       "highlights": []
     },
     {
@@ -59,7 +68,7 @@
     {
       "company": "Online Tutoring Project @ NCNU",
       "position": "Employee",
-      "website": "https://www.facebook.com/NCNU.TheProjectofOnlineTutoring/",
+      "website": "https://www.facebook.com/NCNU.TheProjectofOnlineTutoring",
       "startDate": "2010-09-01",
       "endDate": "2017-06-30",
       "summary": "Teaching countryside Primary school and Junior high school students via Internet",
