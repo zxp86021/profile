@@ -44,6 +44,6 @@ jobs:
         options: ''
         ssh_options: ''
         src: 'dist/resume.html'
-        dest: ${{ secrets.RESUME_USER }}@${{ secrets.RESUME_HOST }}:test
+        dest: ${{ secrets.RESUME_USER }}@${{ secrets.RESUME_HOST }}:test/index.html
 
         
