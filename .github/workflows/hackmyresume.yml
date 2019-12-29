@@ -18,7 +18,15 @@ jobs:
       with:
         node-version: 12.x
 
-    - name: npm install, build
+    - name: Cache dependencies
+      uses: actions/cache@v1
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    - name: Run build
       run: |
         npm ci
         npm run build --if-present
@@ -26,3 +34,16 @@ jobs:
         CI: true
         THEME: jsonresume-theme-paper
         OUTPUT_PATH: dist/resume.all
+    
+    - name: Deploy
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{ secrets.RESUME_SSH_KEY }}
+      with:
+        flags: '-avzr --delete'
+        options: ''
+        ssh_options: ''
+        src: 'dist/'
+        dest: ${{ secrets.RESUME_USER }}@${{ secrets.RESUME_HOST }}:test
+
+        
