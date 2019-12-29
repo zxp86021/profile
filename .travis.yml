@@ -15,7 +15,7 @@ before_script:
   - export OUTPUT_PATH='dist/resume.all'
 
 script:
-  - ls -al jsonresume-theme-paper
+  - npm run build
 
 notifications:
   email:
