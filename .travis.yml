@@ -9,6 +9,7 @@ cache:
 
 install:
   - npm install
+  - THEME=jsonresume-theme-paper npm run build
 
 script: echo 'skip test' # Skip `yarn test`
 
