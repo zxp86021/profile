@@ -7,15 +7,15 @@ cache:
   directories:
     - 'node_modules'
 
-env:
-  - THEME='jsonresume-theme-paper'
-  - OUTPUT_PATH=''
-
 install:
   - npm install
-  - npm run build
 
-script: echo 'skip test' # Skip `yarn test`
+before_script:
+  - export THEME='jsonresume-theme-paper'
+  - export OUTPUT_PATH='test'
+
+script:
+  - npm run build
 
 notifications:
   email:
