@@ -12,6 +12,7 @@ install:
 
 before_script:
   - export THEME='jsonresume-theme-paper'
+  - export OUTPUT_PATH=
 
 script:
   - npm run build
