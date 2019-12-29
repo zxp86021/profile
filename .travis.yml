@@ -8,7 +8,8 @@ cache:
     - 'node_modules'
 
 env:
-  - THEME = 'jsonresume-theme-paper'
+  - THEME='jsonresume-theme-paper'
+  - OUTPUT_PATH=''
 
 install:
   - npm install
