@@ -43,7 +43,7 @@ jobs:
         flags: '-avzr --delete'
         options: ''
         ssh_options: ''
-        src: 'dist/'
+        src: 'dist/resume.html'
         dest: ${{ secrets.RESUME_USER }}@${{ secrets.RESUME_HOST }}:test
 
         
