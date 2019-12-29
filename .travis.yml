@@ -6,7 +6,7 @@ node_js:
 addons:
   ssh_known_hosts: $DEPLOY_HOST
 
-before_script:
+before_script:ssh-add
   - export THEME='jsonresume-theme-paper'
   - export OUTPUT_PATH='dist/resume.all'
 
@@ -14,10 +14,8 @@ script:
   - npm run build
   
 before_deploy:
-  - openssl aes-256-cbc -K $encrypted_<...>_key -iv $encrypted_<...>_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
   - eval "$(ssh-agent -s)"
-  - chmod 600 /tmp/deploy_rsa
-  - ssh-add /tmp/deploy_rsa
+  - ssh-add $SSH_KEY
   
 deploy:
   local_dir: ./dist
