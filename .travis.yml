@@ -15,7 +15,7 @@ script:
   
 before_deploy:
   - eval "$(ssh-agent -s)"
-  - ssh-add $SSH_KEY
+  - ssh-add - <<< $SSH_KEY
   
 deploy:
   local_dir: ./dist
