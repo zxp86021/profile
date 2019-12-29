@@ -6,7 +6,7 @@ node_js:
 addons:
   ssh_known_hosts: $DEPLOY_HOST
 
-before_script:ssh-add
+before_script:
   - export THEME='jsonresume-theme-paper'
   - export OUTPUT_PATH='dist/resume.all'
 
