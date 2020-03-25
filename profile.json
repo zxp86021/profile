@@ -39,6 +39,15 @@
   },
   "work": [
     {
+      "company": "Ge Ming Technology Co. Ltd",
+      "position": "DevOps",
+      "website": "",
+      "startDate": "2019-03-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "company": "Megalive Co. Ltd",
       "position": "PHP Web Developer",
       "website": "http://www.megalive.com.tw/",
