@@ -34,6 +34,13 @@ jobs:
         CI: true
         THEME: jsonresume-theme-paper
         OUTPUT_PATH: dist/resume.all
+        
+    - name: Upload compiled files
+      uses: actions/upload-artifact@v1
+      with:
+        name: compiled
+        path: dist
+
     
     - name: Deploy
       uses: Pendect/action-rsyncer@v1.1.0
