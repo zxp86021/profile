@@ -43,7 +43,7 @@
       "website": "",
       "startDate": "2020-03-01",
       "endDate": "",
-      "summary": "",
+      "summary": "Use Ansible and GitLab-CI for automation, Prometheus and Grafana for monitoring, Docker and K8S for deployment",
       "highlights": []
     },
     {
