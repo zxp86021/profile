@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       COMMIT_SECRET: ${{secrets.GH_PAGE_TOKEN}}
-      USER_NAME: 'Github Actions'
+      USER_NAME: GithubActions
       USER_EMAIL: githubactions@github.com
       PUBLISH_DIR: ./dist
     steps:
