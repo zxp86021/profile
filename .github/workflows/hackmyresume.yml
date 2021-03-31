@@ -8,6 +8,11 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      COMMIT_SECRET: ${{secrets.GH_PAGE_TOKEN}}
+      USER_NAME: githubaction
+      USER_EMAIL: githubaction@github.com
+      PUBLISH_DIR: ./dist
     steps:
     - uses: actions/checkout@v2
       with:
@@ -41,3 +46,17 @@ jobs:
       with:
         name: profiles
         path: dist
+
+    - name: Commit files to gh-pages
+      run: |
+        cd $PUBLISH_DIR
+        git init
+        git config --local user.name $USER_NAME
+        git config --local user.email $USER_EMAIL
+        git status
+        git remote add origin https://$COMMIT_SECRET@github.com/$GITHUB_REPOSITORY.git
+        git checkout -b gh-pages
+        git add --all
+        git commit -m "deploy to Github pages"
+        git push origin gh-pages -f
+        echo 🤘 deploy gh-pages complete.
