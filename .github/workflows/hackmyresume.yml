@@ -51,6 +51,7 @@ jobs:
       run: |
         cd $PUBLISH_DIR
         echo "richegg.tw" > CNAME
+        cp resume.html index.html
         git init
         git config --local user.name $USER_NAME
         git config --local user.email $USER_EMAIL
