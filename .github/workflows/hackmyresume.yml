@@ -50,6 +50,7 @@ jobs:
     - name: Commit files to gh-pages
       run: |
         cd $PUBLISH_DIR
+        echo "richegg.tw" > CNAME
         git init
         git config --local user.name $USER_NAME
         git config --local user.email $USER_EMAIL
