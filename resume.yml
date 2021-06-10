@@ -1,0 +1,134 @@
+basics:
+  name: 蔡富亘
+  label: Programmer
+  picture: 'avatars.githubusercontent.com/u/3607700?v=3'
+  email: 'zxp86021 (at) gmail.com'
+  website: 'https://richegg.tw'
+  summary: 'Enlightened agent / Web Developer / Maker'
+  location:
+    address: ""
+    postalCode: ""
+    city: Taichung
+    countryCode: '886'
+    region: Taiwan
+  profiles:
+    -
+      network: Telegram
+      username: '@richegg'
+      url: 'https://t.me/richegg'
+    -
+      network: GitHub
+      username: '@zxp86021'
+      url: 'https://github.com/zxp86021'
+    -
+      network: LinkedIn
+      username: 'Fu Hsuan Tsai'
+      url: 'https://tw.linkedin.com/in/fu-hsuan-tsai-57717b136'
+    -
+      network: Twitter
+      username: '@zxp86021'
+      url: 'https://twitter.com/zxp86021'
+work:
+  -
+    company: 'Ge Ming Technology Co. Ltd'
+    position: DevOps
+    website: ""
+    startDate: '2020-03-01'
+    endDate: '2020-09-08'
+    summary: 'Use Ansible and GitLab-CI for automation, Prometheus and Grafana for monitoring, Docker and K8S for deployment'
+    highlights: []
+  -
+    company: 'Megalive Co. Ltd'
+    position: 'PHP Web Developer'
+    website: 'http://www.megalive.com.tw/'
+    startDate: '2019-02-18'
+    endDate: '2020-02-26'
+    summary: 'create and maintance APIs built with Laravel'
+    highlights: []
+  -
+    company: 'University Entrance Committee For Overseas Chinese Students @ NCNU'
+    position: 'Web Developer'
+    website: 'https://en.overseas.ncnu.edu.tw'
+    startDate: '2018-06-01'
+    endDate: '2019-01-10'
+    summary: 'use Laravel to build modern, secure web backend application and APIs. use jQuery, Bootstrap as frontend'
+    highlights: []
+  -
+    company: 'Commerce Automation Lab @ NCNU'
+    position: Member
+    website: 'https://github.com/ncnu-calab'
+    startDate: '2013-09-01'
+    endDate: '2018-02-14'
+    highlights: []
+  -
+    company: 'Online Tutoring Project @ NCNU'
+    position: Employee
+    website: 'https://www.facebook.com/NCNU.TheProjectofOnlineTutoring'
+    startDate: '2010-09-01'
+    endDate: '2017-06-30'
+    summary: 'Teaching countryside Primary school and Junior high school students via Internet'
+    highlights: []
+volunteer:
+  -
+    organization: 'Makers'' Open Lab for Innovation'
+    position: 'Key Holder'
+    website: 'https://moli.rocks'
+    startDate: '2015-07-01'
+    endDate: '2018-02-14'
+    summary: 'The Makers'' Open Lab for Innovation is a place opening to everyone. Anyone who loves to create things and share with others are welcome. Basically for free.'
+    highlights: []
+education:
+  -
+    institution: 'National Chi Nan University'
+    area: 'Department of Information Management'
+    studyType: Master
+    startDate: '2013-09-01'
+    endDate: '2018-02-14'
+    gpa: ""
+    courses: []
+  -
+    institution: 'National Chi Nan University'
+    area: 'Department of Information Management'
+    studyType: Bachelor
+    startDate: '2009-09-01'
+    endDate: '2013-06-30'
+    gpa: ""
+    courses: []
+awards: []
+publications: []
+skills:
+  -
+    name: 'Front-end Development'
+    level: Advanced
+    keywords:
+      - HTML
+      - CSS
+      - 'Javascript (jQuery)'
+  -
+    name: 'Back-end Development'
+    level: Advanced
+    keywords:
+      - 'PHP (Laravel, CodeIgniter)'
+  -
+    name: 'Back-end Development'
+    level: Beginner
+    keywords:
+      - Go
+      - 'Node.js (Express)'
+languages:
+  -
+    language: 'Mandarin Chinese'
+    fluency: 'Native speaker'
+  -
+    language: Taiwanese
+    fluency: 'Native speaker'
+  -
+    language: English
+    fluency: Fair
+interests:
+  -
+    name: Maker
+    keywords:
+      - 'Raspberry Pi'
+      - Arduino
+references: []

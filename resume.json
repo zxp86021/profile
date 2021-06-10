@@ -1,0 +1,194 @@
+{
+  "name": "蔡富亘",
+  "info": {
+    "label": "Programmer",
+    "image": "avatars.githubusercontent.com/u/3607700?v=3",
+    "brief": "Enlightened agent / Web Developer / Maker"
+  },
+  "contact": {
+    "email": "zxp86021 (at) gmail.com",
+    "website": "https://richegg.tw"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2021-06-10T03:05:49.239Z"
+  },
+  "location": {
+    "city": "Taichung",
+    "region": "Taiwan",
+    "country": "886",
+    "code": "",
+    "address": ""
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "DevOps",
+        "employer": "Ge Ming Technology Co. Ltd",
+        "summary": "Use Ansible and GitLab-CI for automation, Prometheus and Grafana for monitoring, Docker and K8S for deployment",
+        "start": "2020-03-01",
+        "end": "2020-09-08",
+        "url": "",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "PHP Web Developer",
+        "employer": "Megalive Co. Ltd",
+        "summary": "create and maintance APIs built with Laravel",
+        "start": "2019-02-18",
+        "end": "2020-02-26",
+        "url": "http://www.megalive.com.tw/",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "Web Developer",
+        "employer": "University Entrance Committee For Overseas Chinese Students @ NCNU",
+        "summary": "use Laravel to build modern, secure web backend application and APIs. use jQuery, Bootstrap as frontend",
+        "start": "2018-06-01",
+        "end": "2019-01-10",
+        "url": "https://en.overseas.ncnu.edu.tw",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "Member",
+        "employer": "Commerce Automation Lab @ NCNU",
+        "start": "2013-09-01",
+        "end": "2018-02-14",
+        "url": "https://github.com/ncnu-calab",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "Employee",
+        "employer": "Online Tutoring Project @ NCNU",
+        "summary": "Teaching countryside Primary school and Junior high school students via Internet",
+        "start": "2010-09-01",
+        "end": "2017-06-30",
+        "url": "https://www.facebook.com/NCNU.TheProjectofOnlineTutoring",
+        "keywords": [],
+        "highlights": []
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "National Chi Nan University",
+        "start": "2013-09-01",
+        "end": "2018-02-14",
+        "grade": "",
+        "curriculum": [],
+        "summary": "",
+        "area": "Department of Information Management",
+        "studyType": "Master"
+      },
+      {
+        "institution": "National Chi Nan University",
+        "start": "2009-09-01",
+        "end": "2013-06-30",
+        "grade": "",
+        "curriculum": [],
+        "summary": "",
+        "area": "Department of Information Management",
+        "studyType": "Bachelor"
+      }
+    ]
+  },
+  "service": {
+    "history": [
+      {
+        "type": "volunteer",
+        "position": "Key Holder",
+        "organization": "Makers' Open Lab for Innovation",
+        "start": "2015-07-01",
+        "end": "2018-02-14",
+        "url": "https://moli.rocks",
+        "summary": "The Makers' Open Lab for Innovation is a place opening to everyone. Anyone who loves to create things and share with others are welcome. Basically for free.",
+        "highlights": []
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Front-end Development",
+        "level": "Advanced",
+        "skills": [
+          "HTML",
+          "CSS",
+          "Javascript (jQuery)"
+        ]
+      },
+      {
+        "name": "Back-end Development",
+        "level": "Advanced",
+        "skills": [
+          "PHP (Laravel, CodeIgniter)"
+        ]
+      },
+      {
+        "name": "Back-end Development",
+        "level": "Beginner",
+        "skills": [
+          "Go",
+          "Node.js (Express)"
+        ]
+      }
+    ]
+  },
+  "writing": [],
+  "social": [
+    {
+      "label": "Telegram",
+      "network": "Telegram",
+      "url": "https://t.me/richegg",
+      "user": "@richegg"
+    },
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/zxp86021",
+      "user": "@zxp86021"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "url": "https://tw.linkedin.com/in/fu-hsuan-tsai-57717b136",
+      "user": "Fu Hsuan Tsai"
+    },
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "https://twitter.com/zxp86021",
+      "user": "@zxp86021"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Maker",
+      "keywords": [
+        "Raspberry Pi",
+        "Arduino"
+      ]
+    }
+  ],
+  "testimonials": 0,
+  "languages": [
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Taiwanese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fair"
+    }
+  ]
+}
