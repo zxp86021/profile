@@ -51,6 +51,7 @@ jobs:
       run: |
         cd $PUBLISH_DIR
         echo "richegg.tw" > CNAME
+        echo -e "User-agent: *\nContent-Signal: ai-train=no, search=yes, ai-input=yes\nAllow: /" > robots.txt
         cp resume.html index.html
         git init
         git config --local user.name $USER_NAME
