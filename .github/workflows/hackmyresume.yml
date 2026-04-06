@@ -14,13 +14,13 @@ jobs:
       USER_EMAIL: githubactions@github.com
       PUBLISH_DIR: ./dist
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v6
       with:
         submodules: true
-        fetch-depth: 0
+        fetch-depth: 1
       
     - name: Setup Node
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: 14.x
 
@@ -42,7 +42,7 @@ jobs:
         OUTPUT_PATH: dist/resume.all
 
     - name: Upload compiled files
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v7
       with:
         name: profiles
         path: dist
