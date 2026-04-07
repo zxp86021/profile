@@ -47,7 +47,7 @@ jobs:
         cp $PUBLISH_DIR/resume.html $PUBLISH_DIR/index.html
 
     - name: Upload compiled files
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@v4
       with:
         path: dist
 
