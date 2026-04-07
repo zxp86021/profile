@@ -47,35 +47,17 @@ jobs:
         cp $PUBLISH_DIR/resume.html $PUBLISH_DIR/index.html
 
     - name: Upload compiled files
-      uses: actions/upload-artifact@v7
+      uses: actions/upload-pages-artifact@v3
       with:
-        name: profiles
         path: dist
 
-    #- name: Commit files to gh-pages
-    #  run: |
-    #    cd $PUBLISH_DIR
-    #    echo "richegg.tw" > CNAME
-    #    echo -e "User-agent: *\nContent-Signal: ai-train=no, search=yes, ai-input=yes\nAllow: /" > robots.txt
-    #    cp resume.html index.html
-    #    git init
-    #    git config --local user.name $USER_NAME
-    #    git config --local user.email $USER_EMAIL
-    #    git status
-    #    git remote add origin https://$COMMIT_SECRET@github.com/$GITHUB_REPOSITORY.git
-    #    git checkout -b gh-pages
-    #    git add --all
-    #    git commit -m "deploy to Github pages"
-    #    git push origin gh-pages -f
-    #    echo 🤘 deploy gh-pages complete.
-
-  #deploy:
-  #  environment:
-  #    name: github-pages
-  #    url: ${{ steps.deployment.outputs.page_url }}
-  #  runs-on: ubuntu-latest
-  #  needs: build
-  #  steps:
-  #    - name: Deploy to GitHub Pages
-  #      id: deployment
-  #      uses: actions/deploy-pages@v5
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
